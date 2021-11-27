@@ -9,16 +9,19 @@
 .header {
     display: flex;
     align-items: center;
-    background-color: red;
+    background-color: cyan;
     height: 75px;
 }
 
 .header__logo {
     margin-left: 25px;
+    background-color: red;
 }
 
 .header__menu {
+    background-color: blue;
     margin-left: 50px;
+    margin-right: 50px;
     align-items: center;
     display: flex;
     width: 100%;
@@ -29,9 +32,19 @@
     list-style-type: none;
     justify-content: center;
     display: flex;
+    padding: 0px;
+}
+
+.menu__item {
+    padding-left: 20px;
+}
+
+.menu__item:first-child {
+    padding-left: 50px;
 }
 
 .header__auth {
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,4 +61,17 @@
 
 .wrapper {
     font-family: OpenSans-Regular;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    height: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+    background-color: pink;
+    display: flex;
 }
