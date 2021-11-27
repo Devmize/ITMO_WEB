@@ -15,11 +15,9 @@
 
 .header__logo {
     margin-left: 25px;
-    background-color: red;
 }
 
 .header__menu {
-    background-color: blue;
     margin-left: 50px;
     margin-right: 50px;
     align-items: center;
@@ -44,7 +42,6 @@
 }
 
 .header__auth {
-    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,6 +69,5 @@ body {
 
 .main {
     flex: 1 1 auto;
-    background-color: pink;
     display: flex;
 }
