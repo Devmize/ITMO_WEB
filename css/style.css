@@ -1,78 +1,4 @@
-@font-face {
-	font-family: 'OpenSans-Regular';
-	src: url('../fonts/OpenSans/Regular/OpenSans-Regular.eot');
-	src: local('☺'), url('../fonts/OpenSans/Regular/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans/Regular/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans/Regular/OpenSans-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'OpenSans-Medium';
-	src: url('../fonts/OpenSans/Medium/OpenSans-Medium.eot');
-	src: local('☺'), url('../fonts/OpenSans/Medium/OpenSans-Medium.woff') format('woff'), url('../fonts/OpenSans/Medium/OpenSans-Medium.ttf') format('truetype'), url('../fonts/OpenSans/Medium/OpenSans-Medium.svg') format('svg');
-	font-weight: 500;
-	font-style: 500;
-}
-
-@font-face {
-	font-family: 'OpenSans-Bold';
-	src: url('../fonts/OpenSans/Bold/OpenSans-Bold.eot');
-	src: local('☺'), url('../fonts/OpenSans/Bold/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans/Bold/OpenSans-Bold.ttf') format('truetype'), url('../fonts/OpenSans/Bold/OpenSans-Bold.svg') format('svg');
-	font-weight: 700;
-	font-style: 700;
-}
-
-.header {
-    display: flex;
-    align-items: center;
-    height: 75px;
-}
-
-.header__logo {
-    margin-left: 25px;
-}
-
-.header__menu {
-    margin-left: 50px;
-    margin-right: 50px;
-    align-items: center;
-    display: flex;
-    width: 100%;
-}
-
-.header__menu__list {
-    align-items: center;
-    list-style-type: none;
-    justify-content: center;
-    display: flex;
-    padding: 0px;
-}
-
-.menu__item {
-    padding-left: 20px;
-}
-
-.menu__item:first-child {
-    padding-left: 50px;
-}
-
-.header__auth {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 25px;
-}
-
-.header__auth__login {
-    margin-right: 5px;
-}
-
-.header__auth__reg {
-    margin-left: 5px;
-}
-
 .wrapper {
-    font-family: OpenSans-Regular;
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -85,4 +11,15 @@ body {
 .main {
     flex: 1 1 auto;
     display: flex;
+}
+
+.link {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.link:hover {
+    color: orange;
 }
