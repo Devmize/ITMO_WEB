@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    margin: 25px;
+    background-color: chocolate;
+}
+
+.main__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    width: 200px;
+}
+
+.main__sidebar__menu {
+    cursor: pointer;
+}
