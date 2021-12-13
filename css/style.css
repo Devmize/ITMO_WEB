@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
 }
-/* ------------------------------------ */
+/* ------------------------------------------------------------------------------------- */
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -89,12 +89,8 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75px;
+    height: 85px;
     background-color: #3f3f3f;
-}
-
-.header__img {
-    border-radius: 100px;
 }
 
 .main {
@@ -112,9 +108,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer__contacts {
-    margin-left: 14%;
+    margin-left: 11%;
 }
 
-.vk, .telegram, .instagram {
+.vk, .telegram, .github {
     padding: 0px 5px;
 }
