@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding-right: 10px;
     height: 85px;
     background-color: #3f3f3f;
@@ -97,10 +97,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__menu__list {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header__menu__list li {
-    padding: 0px 10px;
+    padding: 0px 20px;
 }
 
 .header__menu__list a {
@@ -109,10 +111,64 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #2c2c2c;
 }
 
+.menu__item.active {
+    color: orange;
+}
 
-
+a:hover {
+    color: orange;
+}
 .main {
     flex: 1 1 auto;
+}
+
+.main__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 100%;
+    font-family: 'OpenSans-Regular';
+}
+
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+
+.main__table {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.table__item {
+    text-align: center;
+    border: 2px dashed;
+    padding: 30px;
+}
+
+.main__info {
+    color: white;
+}
+
+.pink {
+    color: #c0033b;
+}
+
+.purple {
+    color: #5A009D;
+}
+
+.blue {
+    color: #004DFF;
+}
+
+.red {
+    color: #af0505;
 }
 
 .footer__row {
@@ -125,8 +181,18 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 20px;
 }
 
+.footer__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .vk, .telegram, .github {
     padding: 0px 5px;
+}
+
+.loadTime {
+    margin: 0px 50px;
 }
 
 .back {
