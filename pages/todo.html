@@ -18,6 +18,7 @@
                             <li><a href="/pages/code.html" class="menu__item code">CODE</a></li>
                             <li><a href="/pages/table.html" class="menu__item table">TABLE</a></li>
                             <li><a href="/pages/todo.html" class="menu__item active todolist">TODO</a></li>
+                            <li><a href="/pages/loader.html" class="menu__item loader">LOADER</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -26,7 +27,20 @@
         <main class="main">
             <div class="container">
                 <div class="main__row">
-                    
+                    <div class="main__todoList">
+                        <div class="todoList__title">Todo App</div>
+                        <div class="inputField">
+                            <input type="text" placeholder="Add your new todo">
+                            <button><i>+</i></button>
+                        </div>
+                        <ul class="todoList">
+                            
+                        </ul>
+                        <div class="todoList__score">
+                            <span>You have <span class="pendingNumber"></span> pending tasks</span>
+                            <button>Clear all</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -48,5 +62,6 @@
         </footer>
     </div>
     <script src="/scripts/loadTime.js"></script>
+    <script src="/scripts/todoList.js"></script>
 </body>
 </html>

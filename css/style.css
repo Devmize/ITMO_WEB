@@ -136,6 +136,11 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     width: 700px;
+    margin-top: 100px;
+}
+
+.main__code {
+    background-color: white;
 }
 
 .main__table {
@@ -155,8 +160,124 @@ a:hover {
     color: white;
 }
 
+.main__todoList {
+    margin: 120px auto;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.todoList__title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.inputField {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.todoList {
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.todoList li {
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    padding: 0px 15px;
+    cursor: default;
+    overflow: hidden;
+}
+
+.todoList li span {
+    position: absolute;
+    right: -45px;
+    color: #fff;
+    width: 45px;
+    text-align: center;
+    border-radius: 0px 3px 3px 0px;
+    background: #e74c3c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.todoList li:hover span {
+    right: 0px;
+}
+
+.inputField input {
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+    transition: all 0.3s ease;
+}
+
+.inputField input:focus {
+    border-color: #8E49E8;
+}
+
+.inputField button {
+    width: 60px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #8E49E8;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.inputField button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.todoList__score {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todoList__score button {
+    border: none;
+    outline: none;
+    background: #8E49E8;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 5px;
+    user-select: none;
+    pointer-events: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 10px;
+}
+
+.todoList__score button.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
 .pink {
-    color: #c0033b;
+    color: #ff0597;
 }
 
 .purple {
@@ -168,7 +289,7 @@ a:hover {
 }
 
 .red {
-    color: #af0505;
+    color: #ff0606;
 }
 
 .footer__row {
