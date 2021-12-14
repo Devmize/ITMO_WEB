@@ -87,11 +87,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__row {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    padding-right: 10px;
     height: 85px;
     background-color: #3f3f3f;
+    font-family: 'OpenSans-Medium';
 }
+
+.header__menu__list {
+    display: flex;
+}
+
+.header__menu__list li {
+    padding: 0px 10px;
+}
+
+.header__menu__list a {
+    padding: 7px;
+    color: white;
+    background-color: #2c2c2c;
+}
+
+
 
 .main {
     flex: 1 1 auto;
@@ -107,10 +125,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 20px;
 }
 
-.footer__contacts {
-    margin-left: 11%;
-}
-
 .vk, .telegram, .github {
     padding: 0px 5px;
+}
+
+.back {
+    margin-right: 50px;
 }
