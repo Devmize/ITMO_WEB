@@ -452,3 +452,55 @@ a:hover {
         background-color: #CFD8DC;
       }
 }
+
+#main_card {
+    display: flex;
+    flex-direction: column;
+	margin: 15px;
+	background-color:#6a6a6a;
+	text-align: center;
+	font-size: 20px;
+}
+
+.card {
+	border: 7px dashed orange;
+	border-radius: 100;
+	width: 300px;
+	padding: 25px;
+	margin-top: 10px;
+	max-width: 300px;
+	color: white;
+}
+
+#cards {
+	display: flex;
+    justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.preloader-img{
+    width: 75px;
+}
+
+#add-card {
+    margin: 0 auto;
+    width: auto;
+    margin-top: 10px;
+    padding: 7px;
+	font-size: 24px;
+	color: white;
+    font-family: 'OpenSans-Regular';
+    background-color: #2c2c2c;
+    margin-bottom: 20px;
+	font-weight: bold;
+}
+
+#add-card:hover {
+	color: orange;
+}
+
+.card.preloader.disabled {
+	display: none;
+}
